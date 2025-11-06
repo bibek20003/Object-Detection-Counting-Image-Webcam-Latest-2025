@@ -1,12 +1,8 @@
 streamlit==1.39.0
 ultralytics==8.2.74
-
-# Use only the headless OpenCV build (no libGL dependency)
-opencv-python-headless==4.9.0.80
-
+opencv-python==4.9.0.80
 numpy==1.26.4
 torch>=2.0.0
 torchvision>=0.15.0
 
-# Streamlit compatibility fix
-rich<14
+
